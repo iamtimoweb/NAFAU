@@ -1,0 +1,95 @@
+body {
+
+    line-height: 25px;
+    font-style: normal;
+    color: #7c7770;
+    text-rendering: optimizelegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+h1, .h1 {
+    font-size: 50px;
+    @media only screen and (max-width: 767px) {
+        font-size: 36px;
+    }
+    @media only screen and (max-width: 479px) {
+        font-size: 30px;
+    }
+}
+
+h2, .h2 {
+    font-size: 36px;
+
+    @media only screen and (max-width: 767px) {
+        font-size: 30px;
+    }
+    @media only screen and (max-width: 479px) {
+        font-size: 25px;
+    }
+}
+
+h3, .h3 {
+    font-size: 30px;
+
+    @media only screen and (max-width: 767px) {
+        font-size: 25px;
+    }
+
+}
+
+h4, .h4 {
+    font-size: 20px;
+}
+
+h5, .h5 {
+    font-size: 18px;
+}
+
+h6, .h6 {
+    font-size: 14px;
+}
+
+ol,
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    transition: 0.2s ease;
+
+    &:hover {
+        text-decoration: none;
+        color: #e84444;
+    }
+
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+iframe {
+    border: none !important;
+}
+
+*:focus {
+    outline: 0 solid transparent;
+}

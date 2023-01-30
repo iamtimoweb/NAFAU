@@ -1,0 +1,32 @@
+/*
+Noah's Ark farmers association theme
+Author: Mugabi Timothy aka Djangood
+Version: 0.0.1
+*/
+// variable overrides
+@import "variables";
+// core bootstrap css
+@import "~bootstrap/scss/bootstrap";
+@import "~plyr/dist/plyr.css";
+
+// base and layout
+@import "reboot";
+
+// colors
+@import "components/color";
+
+// components (navbar, cards, buttons)
+@import "components/slider";
+@import "components/card";
+@import "components/button";
+@import "components/section";
+@import "components/form";
+@import 'components/cookie';
+
+
+// utilities( margin, padding, opacity)
+@import "utilities";
+
+// layouts
+@import "components/header";
+@import "components/footer";

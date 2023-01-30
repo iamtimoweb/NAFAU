@@ -1,0 +1,129 @@
+footer {
+    .py-80 {
+
+        padding: 80px 0;
+        border-bottom-color: #454547 !important;
+
+        h4 {
+            position: relative;
+            padding-bottom: 12px;
+
+            &::after {
+                content: '';
+                position: absolute;
+                display: block;
+                width: 20px;
+                height: 2px;
+                background: #e84444;
+                bottom: 0;
+                left: 0;
+            }
+        }
+
+        .mb-30 {
+            margin-bottom: 30px;
+        }
+
+        .logo-footer {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            box-shadow: 0px 10px 30px 0px rgb(153 153 153 / 20%);
+        }
+    }
+
+    .social-icon-outline {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: transparent;
+        border: 1px solid #fff;
+        text-align: center;
+        transition: 0.2s ease;
+        display: inline-block;
+
+        i {
+            line-height: 40px;
+            color: #fff;
+            font-size: 14px;
+        }
+
+        &:hover {
+            border-color: #e84444;
+        }
+    }
+
+    .footer-links {
+        padding-left: 18px;
+
+        li {
+            margin-bottom: 15px;
+            position: relative;
+
+            &::before {
+                position: absolute;
+                font-family: "themify";
+                font-size: 15px;
+                content: "";
+                top: 0;
+                left: -20px;
+                height: 10px;
+                width: auto;
+                color: #fff;
+            }
+
+            a {
+                color: #fff;
+                font-size: 14px;
+                transition: 0.2s ease;
+                display: block;
+            }
+        }
+    }
+
+    .footer-contact {
+        p {
+            margin-bottom: 18px;
+            color: #ffffff;
+
+            i {
+                font-size: 15px;
+                line-height: 40px;
+                border: 1px solid #ffffff;
+                padding: 10px;
+                border-radius: 50%;
+            }
+        }
+    }
+
+}
+
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+    background: #e84444;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    transition: all 0.4s;
+
+    i {
+        font-size: 14px;
+        color: #fff;
+        line-height: 0;
+    }
+
+    &:hover {
+        background: darken(#e84444, 10%);
+        color: #fff;
+    }
+
+    &.active {
+        visibility: visible;
+        opacity: 1;
+    }
+}

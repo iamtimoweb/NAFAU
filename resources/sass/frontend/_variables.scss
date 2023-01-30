@@ -1,0 +1,32 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto&display=swap');
+
+
+/*--------------------------------
+Color System
+----------------------------------*/
+
+$primary: #e84444;
+//$primary: #fd5f00;
+//$secondary: #504534;
+$success: #023020;
+$light: #fbfbfb;
+$light: #f0f0f0;
+$light: #fafafa;
+
+
+/*--------------------------------
+Topography
+----------------------------------*/
+// Font, line-height, and color for body text, headings, and more.
+/*$font-family-base: 'Roboto', sans-serif;*/
+//$font-family-base: 'Roboto-Regular', sans-serif;
+$font-family-base:'Roboto', sans-serif;
+
+
+$font-size-base: 0.875rem;
+
+//$headings-font-family: 'Raleway-Bold', sans-serif;
+$headings-font-family:'Raleway', sans-serif;
+$headings-font-weight: 600;
+$headings-color: #1B1B1B;
